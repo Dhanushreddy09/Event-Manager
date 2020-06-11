@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "3",
+      "name": "HIT",
+      "address": "Hyderabad",
+      "date": "2020-09-18",
+      "time": "8:20"
+    },
+    {
+      "id": "4",
+      "name": "Fast and Furious 9",
+      "address": "san Francisco",
+      "date": "2020-07-03",
+      "time": "8:20"
+    },
+    {
+      "id": "5",
+      "name": "Bad Sick",
+      "address": "NewYork",
+      "date": "2020-08-26",
+      "time": "9:30"
+    },
+    {
+      "id": "6",
+      "name": "Jaanu",
+      "address": "Vijayawada",
+      "date": "2020-09-21",
+      "time": "5:20"
+    },
+    {
+      "id": "7",
+      "name": "TENET",
+      "address": "San Diego",
+      "date": "2020-06-18",
+      "time": "11:40"
+    },
+    {
+      "id": "8",
+      "name": "Baahubali",
+      "address": "Chandigarh",
+      "date": "2020-11-18",
+      "time": "12:10"
+    },
+    {
+      "id": "9",
+      "name": "Silver Linings Playbook",
+      "address": "Miami",
+      "date": "2020-12-27",
+      "time": "21:40"
+    }
+  ]
+}

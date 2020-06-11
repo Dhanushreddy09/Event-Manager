@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import TextInputGroup from '../layout/TextInputGroup'
-import {v1 as uuid} from 'uuid'
 import {addEvent} from '../../actions/eventActions'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
+import {v1 as uuid} from 'uuid'
  class AddEvent extends Component {
      state={
          name:'',
@@ -18,24 +18,23 @@ import {connect} from 'react-redux'
      onSubmit=(e)=>{
          e.preventDefault();
          const {name,address,date,time}=this.state;
-         if(name==''){
+         if(name===''){
              this.setState({errors:{name:'Name is Required'}})
              return;
          }
-         if(address==''){
+         if(address===''){
             this.setState({errors:{address:'Address is Required'}})
             return;
         }
-        if(date==''){
+        if(date===''){
             this.setState({errors:{date:'Date is Required'}})
             return;
         }
-        if(time==''){
+        if(time===''){
             this.setState({errors:{time:'Time is Required'}})
             return;
         }
         const newEvent={
-            id:uuid(),
             name,
             address,
             date,

@@ -4,7 +4,6 @@ import AppNavbar from './components/layout/AppNavbar'
 import { HashRouter as Router,Route,Switch } from 'react-router-dom';
 import Dashboard from '../src/components/layout/Dashboard'
 import About from '../src/pages/About'
-import NotFound from '../src/pages/NotFound'
 import AddEvent from './components/events/AddEvent'
 import store from './store'
 import {Provider} from 'react-redux'
